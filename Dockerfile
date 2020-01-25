@@ -36,5 +36,3 @@ ENV PATH $PATH:$JMETER_BIN
 COPY entrypoint.sh /
 
 WORKDIR	${JMETER_HOME}
-
-ENTRYPOINT ["/entrypoint.sh"]
